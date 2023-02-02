@@ -1,0 +1,38 @@
+body ul li {
+	display: block;
+	height: 35px;
+	width: auto;
+	background-color: rgb(255, 255, 255, 0.5);
+	box-shadow: 2px 2px 2px grey;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
+}
+
+body header {
+	font-size: 40px;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+@font-face {
+	font-family: "EF_Diary";
+	src: url("./font/EF_Diary.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "SUIT-Medium";
+	src: url("./font/SUIT-Medium.ttf") format("truetype");
+}
+
+header {
+	font-family: "SUIT-Medium";
+}
+
+body {
+	font-family : "SUIT-Medium";
+	text-align: center;
+}
+

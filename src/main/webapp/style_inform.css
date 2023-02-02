@@ -1,0 +1,121 @@
+body {
+	font-family : "EF_Diary"
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	display: inline-block;
+	list-style: none;
+}
+
+@font-face {
+	font-family: "EF_Diary";
+	src: url("./font/EF_Diary.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "SUIT-Medium.ttf";
+	src: url("./font/SUIT-Medium.ttf") format("truetype");
+}
+
+#main-section,
+footer {
+	text-align: center;
+}
+
+
+header ul {
+	padding-left: 0;
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+header ul li:hover {
+	cursor: pointer;
+}
+
+.btn-list ul {
+	padding-left: 0;
+}
+
+.travel-list2 ul li {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 20px;
+	background-color: rgb(255, 255, 255, 0.5);
+	box-shadow: 2px 2px 2px grey;
+	border-radius: 100px;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 5px 10px;
+	background-color: rgb(255, 255, 255, 0.5);
+	border-radius: 50px;
+	box-shadow: 2px 2px 2px grey;
+}
+
+body ul li {
+	display: block;
+	margin: 0 10px;
+	padding: 10px 30px;
+	background-color: rgb(255, 255, 255, 0.5);
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px grey;
+	font-size: 20px;
+}
+
+.btn-list ul li {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 30px;
+	background-color: rgb(255, 255, 255, 0.5);
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px grey;
+}
+
+.btn-list ul li:hover {
+	cursor: pointer;
+}
+
+.btn-list ul li a {
+	font-size: 20px;
+}
+
+#aboutme article {
+	padding: 20px 100px;
+}
+
+strong {
+	font-size: 25px;
+}
+
+#aboutme article a {
+	color: blue;
+}
+
+aside {
+	display: inline-block;
+}
+
+iframe {
+	border: 5px solid grey;
+	float:center;
+	text-align:center;
+}
+
+.photo_info {
+	display: inline-block;
+	position: absolute;
+}
+
+title {
+	font-size: 50px;
+}
